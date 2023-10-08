@@ -84,7 +84,7 @@ def marcarCorte():
         agenda[dia_escolhido].remove(horario_escolhido)
         print(f"Horário {horario_escolhido} no(a) {dia_escolhido} marcado com sucesso.")
         with open("usuarios.txt", "a") as arquivo:
-            arquivo.write(f'/{dia_escolhido}/{horario_escolhido}\n')
+            arquivo.write(f'/{dia_escolhido}/{ horario_escolhido}\n')
     else:
         print('Marque novamente.')
         print("Horário indisponível.")
@@ -129,7 +129,6 @@ def visualizarCliente():
 def barbeiro(barbeiro1, barbeiro2):
     barber1 = 'João Alberto'
     barber2 = 'Guilerme Alencar'
-    global loginn 
     global princ
     princ = []
     #dicionaro que serviu para guardar o serviço escolhido pelo cliente e conseguir aparecer na mensagem final
@@ -166,7 +165,6 @@ def barbeiro(barbeiro1, barbeiro2):
         for barbeiro, servico in servicoSelecionado.items():
             print(f'O cliente {nome} selecionou o serviço de {descricao_servicos} com o barbeiro {barber2}')
         print()
-        princ.append(loginn.copy())
         princ.append(barbeiro2.copy())
         barbeiro1.clear()
         print(princ)
