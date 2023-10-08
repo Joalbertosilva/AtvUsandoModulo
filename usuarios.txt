@@ -1,0 +1,18 @@
+ {'username': 'joao Alberto', 'password': '12345'} Usuario:joao Alberto. Senha:12345
+ {'username': 'joao kaka', 'password': '12345'} Usuario:joao kaka. Senha:12345
+ {} Usuario:Joao Alberto. Senha:12345
+Usuario:Joao Alberto. Senha:12345
+Joao Silva:12345
+joao:123
+joaozin : 1234
+joaoo : 123
+Joao L : 1234
+Joao K : 1234
+kaka : 1234
+luis:1234
+joao@gmail.com:12345
+j:1
+j:a
+joao@loko.com:12345Segunda-feira:09:00
+joao@:12345:Terça-feira:10:00joao@ki:12345joao@hotmail.com: 12345joao@p/12345
+joao@m:12345/Segunda-feira/09:00
